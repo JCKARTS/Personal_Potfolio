@@ -9,6 +9,8 @@ body {
 }
 
 
+
+
 #web-tit{
     display: inline-block;
     margin-top: 12px;
@@ -27,4 +29,10 @@ body {
     padding: 10px;
     background-color: #dddddd;
     font-size: ;
+}
+
+#Image-1{
+    background-image: url();
+    background-repeat: no-repeat;
+    height: 400px;
 }
