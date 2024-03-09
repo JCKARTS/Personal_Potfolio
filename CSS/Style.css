@@ -8,3 +8,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+#web-tit{
+    display: inline-block;
+    margin-top: 12px;
+}
+#nav-bar li{
+    display: inline;
+    margin-right: 5px;
+    float: right;
+    margin-top: -3.9vh;
+    margin-bottom: 1vh;
+
+}
+
+#nav-bar li a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #dddddd;
+    font-size: ;
+}
