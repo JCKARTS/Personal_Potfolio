@@ -12,27 +12,48 @@ body {
 
 
 #web-tit{
-    display: inline-block;
-    margin-top: 12px;
+    padding-top: 16px;
+    display: inline;
+
+}
+
+#nav-bar{
+    height: 2.5vh;
+    display: flexbox;
+  
+    margin: 0;
+    padding: 0;
+    
+}
+#nav-bar ul{
+    display: flex;
+    margin-left: 80vw;
+    text-align: right;
 }
 #nav-bar li{
-    display: inline;
-    margin-right: 5px;
-    float: right;
-    margin-top: -3.9vh;
-    margin-bottom: 1vh;
+    display: inline-flex;
+    padding: 10px;
+    margin-top: -45px;
+    flex-direction: column-reverse;
+   
+  
+   
 
 }
 
 #nav-bar li a{
-    display: inline-block;
+    display: inline;
     padding: 10px;
     background-color: #dddddd;
-    font-size: ;
+    
 }
 
 #Image-1{
-    background-image: url();
+    background-color: bisque;
+    background-image: url(../images\ /Josh.jpg);
     background-repeat: no-repeat;
-    height: 400px;
-}
+    background-size: cover;
+    height: 100vh;
+   padding-top: 400px;
+   padding-bottom: 400px;
+}  
