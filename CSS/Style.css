@@ -149,3 +149,44 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
+
+#con-div{
+    background-color: #c2aeac;
+    height: 100vh;
+    display: flexbox;
+}
+
+#con h1{
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-bottom: 100px;
+    font-size: 82px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#con h3{
+
+    padding-left: 40%;
+    font-size: 42px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#con p{
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 10px;
+    display: inline;
+}
+
+
+#con i{
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 55%;
+    display: inline;
+
+}
