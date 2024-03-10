@@ -62,3 +62,34 @@ body {
     padding-top: 400px;
     padding-bottom: 400px;
 }  
+
+
+#aboutme-div{
+    background-color: #7497bc;
+    height: 100vh;
+    display: flexbox;
+}
+
+#Aboutme h1{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 82px;
+    text-decoration: underline;
+    font-weight: bold;
+
+    
+}
+
+#Aboutme p{
+    font-size: 28px;
+    text-decoration: none;
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+    margin-left: 30%;
+    font-weight: 400;
+    border: 2px solid #43505b;
+    border-radius: 10px;
+    padding: 20px;
+}
+
