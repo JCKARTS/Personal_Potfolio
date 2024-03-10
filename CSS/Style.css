@@ -12,39 +12,44 @@ body {
 
 
 #web-tit{
-    padding-top: 16px;
+   
+    padding: 5px 5px -1px 5px;
+    font-size: 42px;
+    color: black;
     display: inline;
 
+    border-radius: 5px;
 }
 
 #nav-bar{
-    height: 2.5vh;
+    
     display: flexbox;
-  
+    background-color: #c2aeac;
     margin: 0;
     padding: 0;
     
 }
 #nav-bar ul{
     display: flex;
-    margin-left: 80vw;
+    float: right;
     text-align: right;
+    
 }
 #nav-bar li{
-    display: inline-flex;
-    padding: 10px;
-    margin-top: -45px;
-    flex-direction: column-reverse;
-   
-  
-   
-
+    list-style: none;
+    padding: 5px;
 }
 
 #nav-bar li a{
-    display: inline;
+    display: flex;
     padding: 10px;
-    background-color: #dddddd;
+    border-radius: 5px;
+    background-color: #43505b;
+    top: -30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #7497bc;
     
 }
 
@@ -54,6 +59,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-   padding-top: 400px;
-   padding-bottom: 400px;
+    padding-top: 400px;
+    padding-bottom: 400px;
 }  
