@@ -190,3 +190,24 @@ body {
     display: inline;
 
 }
+
+#footer-div{
+    background-color: #43505b;
+    height: 25vh;
+    text-align: center;
+    padding: 20px;
+}
+
+#foot img{
+    height: 150px;
+    border-radius: 10px;
+
+
+    
+}
+
+#foot h4{
+    text-align: center;
+}
+
+
