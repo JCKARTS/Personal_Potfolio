@@ -1,0 +1,1 @@
+const left = document.getElementsByTagName("Left")

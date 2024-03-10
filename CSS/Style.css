@@ -93,6 +93,26 @@ body {
     padding: 20px;
 }
 
+
+#clicker{
+    padding-left: 85%;
+    display: flexbox;
+    
+}
+
+#clicker img{
+    height: 150px;
+}
+
+#but{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #c2aeac;
+    color: blueviolet;
+    margin-right: 10px;
+}
+
 #pro-div{
     background-color: #43505b;
     height: 100vh;
