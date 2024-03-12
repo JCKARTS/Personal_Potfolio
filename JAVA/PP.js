@@ -1,11 +1,14 @@
-const left = document.getElementsByTagName("Left");
-const img = document.getElementById('kitty');
-const right = document.getElementsByTagName('Right');
+
+let left = document.getElementById('button-l');
 
 
-let butlef = function (){
-    left.style.padding-left = 80%;
-};
+//const right = document.getElementsByTagName('Right');
+
+function mowl() {
+
+    alert('Mow');
+}
 
 
-left.addEventListener('click', butlef());
+
+left.addEventListener('click', mowl);

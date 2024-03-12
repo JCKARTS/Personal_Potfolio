@@ -95,8 +95,9 @@ body {
 
 
 #clicker{
+    padding-top: -300px;
     padding-left: 85%;
-    display: flexbox;
+
     
 }
 
@@ -104,13 +105,14 @@ body {
     height: 150px;
 }
 
-#but{
+.but{
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
     background-color: #c2aeac;
     color: blueviolet;
     margin-right: 10px;
+    align-items: center;
 }
 
 #pro-div{
