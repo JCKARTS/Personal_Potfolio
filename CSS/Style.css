@@ -63,7 +63,6 @@ body {
     padding-bottom: 400px;
 }  
 
-
 #aboutme-div{
     background-color: #7497bc;
     height: 100vh;
@@ -84,14 +83,13 @@ body {
     font-size: 28px;
     text-decoration: none;
     text-align: left;
-    width: 40%;
     display: inline-block;
-    margin-left: 30%;
     font-weight: 400;
-    border: 2px solid #43505b;
-    border-radius: 10px;
     padding: 20px;
 }
+
+
+
 
 
 #clicker{
@@ -123,7 +121,7 @@ body {
 
 #projects h1{
     padding-top: 7%;
-    padding-left: 10%;
+  
     font-size: 82px;
     text-decoration: underline;
     font-weight: bold;
@@ -166,7 +164,7 @@ body {
 }
 #css-div h3{
 
-    padding-left: 40%;
+   
     font-size: 42px;
     text-decoration: underline;
     font-weight: bold;
@@ -179,17 +177,15 @@ body {
 }
 
 #con h1{
-    padding-top: 7%;
-    padding-left: 10%;
-    padding-bottom: 100px;
-    font-size: 82px;
+    padding-bottom: 25px;
+    font-size: 42px;
     text-decoration: underline;
     font-weight: bold;
 }
 
 #con h3{
 
-    padding-left: 40%;
+    
     font-size: 42px;
     text-decoration: underline;
     font-weight: bold;
@@ -232,4 +228,251 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width : 600px){
 
+    #Image-1{
+    background-color: bisque;
+    background-image: url(../images\ /Josh.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover ;
+    box-sizing: border-box;
+    height: 35vh;
+  
+    }
+    
+    #web-tit{
+    padding: 0px 0px 0px 10px;
+    font-size: 36px;
+    color: black;
+    display: block;
+    border-radius: 5px;
+    }
+    
+    
+    #nav-bar ul{
+    display: block;
+    
+    }
+    
+    
+        
+    #nav-bar li a{
+    
+    padding: 10px;
+    
+    border-radius: 5px;
+    background-color: #43505b;
+    top: -30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    }
+    
+    
+    #dropdown {
+    position: relative;
+    display: inline-block;
+    }
+          
+    #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    }
+    
+    #dropdown:hover #dropdown-content {
+    display: block;
+    }
+
+    #aboutme-div{
+        background-color: #7497bc;
+        height: 100vh;
+
+    }
+    
+    #Aboutme h1{
+        padding-top: 10%;
+        text-align: center;
+        font-size: 42px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    #Aboutme p{
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    
+    #clicker{
+       display: inline;
+        padding: 5px;
+        object-position: center;
+      
+        align-items: center;
+        
+    }
+    
+    #clicker img{
+        height: 150px;
+        align-items: center;
+        text-align: center;
+        
+    
+    }
+
+    #kitty{
+       padding-left: 34vw;
+       margin-top: 40px;
+    }
+    
+    .but{
+        display: inline;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: #c2aeac;
+        color: blueviolet;
+        margin-right: 10px;
+        margin-left: 40vw;
+        margin-top: 40px;
+    }
+    
+    #pro-div{
+        background-color: #43505b;
+        height: 100vh;
+        display: flexbox;
+    }
+        
+    #pro-div{
+        background-color: #43505b;
+        height: 100vh;
+        display: flexbox;
+    }
+    
+    #projects h1{
+        text-align: center;
+        font-size: 42px;
+        text-decoration: underline;
+    
+    }
+    
+    #projects ul{
+      
+        margin-left: 18%;
+        padding: 20px;
+        list-style: none;
+    }
+    
+    #projects ul li{
+        border: 2px solid #7497bc;
+        background-color: #7497bc;
+        border-radius: 10px;  
+        text-align: center;
+        width: 70%;
+        margin: 10px;
+    }
+    
+    #projects ul li:hover{
+        background-color: #c2aeac;
+    }
+    
+    
+    #projects ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+      
+    }
+    
+    #html-div h3{
+        font-size: 16px;
+        text-decoration: underline;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    #css-div h3{
+    
+        text-align: center;
+        font-size: 16px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    #con-div{
+        background-color: #c2aeac;
+        height: 100vh;
+        display: flexbox;
+    }
+    
+    #con h1{
+        text-align: center;
+        padding-bottom: 25px;
+        font-size: 42px;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-bottom: 40%;
+        padding-top: 40%;
+    }
+    
+    #con h3{
+    
+        padding-left: 20px;
+        font-size: 20px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    #con p{
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        display: inline;
+        text-align: center;
+     
+    }
+    
+    
+    #con i{
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+        display: inline;
+    
+    }
+
+    #con a{
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #footer-div{
+        background-color: #43505b;
+        height: 25vh;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #foot img{
+        height: 75px;
+        border-radius: 10px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        object-position: center;
+    }
+    
+    #foot h4{
+        text-align: center;
+    }
+    }
